@@ -1,18 +1,16 @@
 #define STB_IMAGE_IMPLEMENTATION
-
 #include <glad/glad.h>
 
 #include <GLFW/glfw3.h>
 
 #include "headers/stb_image.h"
-
 #include "headers/shader.h"
-
 #include "headers/1dPerlinNoise.hpp"
 
 #include <filesystem>
-
 #include <iostream>
+#include <algorithm>
+#include <cmath>
 
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
